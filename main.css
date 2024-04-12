@@ -1,0 +1,107 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black
+}
+
+
+.container{
+    margin: 80px auto;
+    max-width: 500px;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color:#fff ;
+    background-color: rgb(55, 119, 240);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2, h3 {
+    font-family:Arial, Helvetica, sans-serif;    
+    color: rgb(56, 56, 56);
+    font-weight: 300;
+    background-color: #f2f2f2;
+}
+
+input, textarea {
+    color: rgba(41, 41, 41, 0.856) ;
+    background-color: #f2f2f2;
+    border: none;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+button {
+    margin-top: 40px;
+    background-color: rgb(55, 119, 240);
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+    padding-inline: 40px;
+    border: none;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+button:hover {
+    background-color: rgb(92, 147, 248);
+}
+
+
+#success-message {
+    text-align: center;
+    background-color: #53b82b;
+    padding: 16px;
+    color: #fff;
+    margin: 10px auto;
+    width: 400px;
+    display:none;
+    border-radius: 10px
+}
+
+#error-message {
+    text-align: center;
+    background-color: #c22828;
+    padding: 16px;
+    color: #ffffff;
+    margin: 10px auto;
+    width: 400px;
+    display: none;
+    border-radius: 10px
+}
+
+p {
+    font-family: Helvetica;
+    background-color: #f2f2f2;
+}
+
